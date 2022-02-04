@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url("fonts/roboto-medium.eot"); /* IE9 Compat Modes */
+	src: url("fonts/roboto-medium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+		url("fonts/roboto-medium.ttf") format("truetype"), /* Safari, Android, iOS */
+		url("fonts/roboto-medium.woff2") format("woff2"); /* Modern Browsers */
+	font-weight: 500;
+	font-style: normal;
+}
+
+body {
+    /* background-color: #E5E5E5; */
+}
+
+.features-title {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #E7A155;
+    letter-spacing: 0.2em;
+
+    margin-bottom: 7px;
+    margin-top: 53px;
+
+    text-align: center;
+
+}
+
+.subtitle {
+    font-family: "Philosopher", setif;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+.cards {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 90px;
+}
+
+.last-card {
+    margin-right: 0;
+}
+
+.image-container {
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 88px;
+    height: 88px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    margin-bottom: 33px;
+}
+
+.image-domik {
+    background-image: url("images/domik.png");
+    background-color: rgba(143, 166, 50, 0.1);
+}
+
+.image-moped {
+    background-image: url("images/moped.png");
+    background-color: rgba(230, 77, 46, 0.08);
+}
+
+.image-smiley {
+    background-image: url("images/smiley.png");
+    background-color: rgba(220, 120, 11, 0.1);
+}
+
+.card-title {
+    font-family: "Philosopher", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 24px;
+    margin-bottom: 15px;
+
+    color: #150C01;
+}
+
+.card-description {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: rgba(21, 12, 1, 0.7)
+}
+
+.card-text {
+    text-align: center;
+}
+
